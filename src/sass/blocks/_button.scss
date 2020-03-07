@@ -24,4 +24,22 @@
         margin: 0 auto;
         margin-top: 38px;
     }
+    &_mini {
+        width: 150px;
+        height: 40px;
+    }
+    &_back {
+        height: 40px;
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(calc(-50% - 5px));
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    &_submit {
+        position: absolute;
+        bottom: -22px;
+    }
 }

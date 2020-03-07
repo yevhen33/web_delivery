@@ -1,0 +1,19 @@
+.consultation {
+    position: relative;
+    z-index: 1;
+    &__img {
+        position: absolute;
+        top: 39px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid $main-color;
+        border-radius: 100%;
+        background-color: #ffffff;
+        z-index: 2;
+    }
+}
