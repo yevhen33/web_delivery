@@ -1,0 +1,33 @@
+.scheme {
+    min-height: 450px;
+    background-color: #f3f3f3;
+    padding: 50px 0 26px 0;
+    &__items {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__title {
+        margin-top: 15px;
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr {
+        max-width: 258px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
+    }
+}

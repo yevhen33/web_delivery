@@ -1,4 +1,6 @@
 @import 'libs/fonts';
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'libs/slick.scss';
 
 @import 'base/variables';
 
@@ -20,3 +22,6 @@
 @import 'blocks/price';
 @import 'blocks/consultation';
 @import 'blocks/forms';
+@import 'blocks/manager';
+@import 'blocks/scheme';
+@import 'blocks/reviews';
