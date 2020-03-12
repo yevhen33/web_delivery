@@ -1,0 +1,52 @@
+.map {
+    position: relative;
+    height: 500px;
+    &__info {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 329px;
+        height: 158px;
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 5px;
+        padding: 20px 50px;
+        &-addr {
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 0;
+            span {
+                color: $main-color;
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+        &-descr {
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        &-tel {
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            text-decoration: none;
+            &:hover {
+                color: $main-color;
+            }
+        }
+        &-web {
+            display: block;
+            margin-top: 10px;
+            color: $main-color;
+            font-size: 16px;
+            font-weight: 300;
+            text-decoration: underline;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+}

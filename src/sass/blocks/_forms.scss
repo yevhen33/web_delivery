@@ -12,8 +12,34 @@
         margin: 0 5px;
         border-radius: 25px;
         padding: 0 20px;
-        color: #3a3a3a;
+        color: #101010;
         font-size: 14px;
         font-weight: 300;
+    }
+    &_question {
+        input {
+            margin-bottom: 8px;
+            width: 268px;
+            height: 45px;
+            border: 1px solid rgba(0, 0, 0, 0.4);
+            background-color: #fff;
+            border-radius: 21px;
+            padding: 0 20px;
+            color: #101010;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        textarea {
+            width: 813px;
+            height: 71px;
+            border: 1px solid rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            resize: none;
+            padding: 15px 20px;
+            color: #616467;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
     }
 }

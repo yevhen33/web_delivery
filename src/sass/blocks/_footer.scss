@@ -1,0 +1,90 @@
+.footer {
+    min-height: 201px;
+    background-color: #25333c;
+    padding-top: 24px;
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item1 {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        img {
+            width: 68px;
+            height: 71px;
+            margin-left: 20px;
+        }
+        &_official {
+            margin-left: 43px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+    &__item2 {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-right: 20px;
+        &_info {
+            text-align: right;
+            margin-right: 20px;
+            a {
+                color: #ffffff;
+                font-size: 19px;
+                font-weight: 700;
+            }
+        }
+        &_question {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        
+    }
+    hr {
+        margin-top: 26px;
+        margin-bottom: 19px;
+        border: 1px solid #898989;
+        border-bottom: none;
+    }
+    &__additional {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_item1 {
+            width: 570px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 20px;
+            a {
+                color: $main-color;
+                font-size: 13px;
+                font-weight: 300;
+                text-decoration: underline;
+            }
+        }
+        &_com {
+            opacity: 0.6;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 300;
+        }
+        &_item2 {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            margin-right: 20px;
+        }
+        &_web {
+            margin-right: 10px;
+            opacity: 0.6;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+}
