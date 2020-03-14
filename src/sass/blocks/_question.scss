@@ -31,5 +31,18 @@
         min-height: 229px;
         padding: 20px 40px;
         background: rgba(255, 255, 255, 0.7);
+        .error {
+            border: 1px solid $main-color;
+            display: block;
+            margin-bottom: 0;
+            font-size: 12px;
+            
+        }
+        label.error {
+            border: none;
+            margin-left: 20px;
+            margin-bottom: 0;
+        }
     }
+    
 }

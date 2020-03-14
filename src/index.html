@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <div class="header__logo">
@@ -15,22 +15,22 @@
                 </div>
                 <ul class="header__menu">
                     <li class="header__item">
-                        <a href="#" class="header__link">Преимущества</a>
+                        <a href="#advantages" class="header__link">Преимущества</a>
                     </li>
                     <li class="header__item">
-                        <a href="#" class="header__link">Наша работа</a>
+                        <a href="#work" class="header__link">Наша работа</a>
                     </li>
                     <li class="header__item">
-                        <a href="#" class="header__link">Цены</a>
+                        <a href="#price" class="header__link">Цены</a>
                     </li>
                     <li class="header__item">
-                        <a href="#" class="header__link">Схема работы</a>
+                        <a href="#scheme" class="header__link">Схема работы</a>
                     </li>
                     <li class="header__item">
-                        <a href="#" class="header__link">Отзывы</a>
+                        <a href="#reviews" class="header__link">Отзывы</a>
                     </li>
                     <li class="header__item">
-                        <a href="#" class="header__link">Контакты</a>
+                        <a href="#contact" class="header__link">Контакты</a>
                     </li>
                 </ul>
                 <div class="header__contacts">
@@ -72,7 +72,7 @@
         </div>
     </section>
 
-    <section class="advantages">
+    <section id="advantages" class="advantages">
         <div class="container">
             <h2 class="title">Преимущества работы с GlobalOpt</h2>
             <div class="advantages__wrapper">
@@ -152,7 +152,7 @@
         </div>
     </section>
     
-    <section class="work">
+    <section id="work" class="work">
         <div class="container">
 
             <h2 class="title">Наша работа - больше чем просто доставка</h2>
@@ -187,7 +187,7 @@
     </section>
 
     <section class="agent">
-        <h2 class="container">
+        <div class="container">
             <div class="agent__img">
                 <img src="icons/agent.png" alt="agent">
             </div>
@@ -198,7 +198,7 @@
         </div>
     </section>
 
-    <section class="price">
+    <section id="price" class="price">
         <div class="container">
             <h2 class="title">Цены на любой вариант доставки</h2>
             <hr>
@@ -327,10 +327,10 @@
                     <img src="icons/consultation.png" alt="consultant">
                 </div>
                 <form class="feed-form" action="#">
-                    <input name="name" required placeholder="Ваше имя..." type="text">
-                    <input name="phone" required placeholder="Ваш номер телефона..." type="number">
-                    <input name="email" required placeholder="Ваш e-mail..." type="email">
-
+                    <div><input name="name" required placeholder="Ваше имя..." type="text"></div>
+                    <div><input name="phone" required placeholder="Ваш номер телефона..."></div>
+                    <div><input name="email" required placeholder="Ваш e-mail..." type="email"></div>
+        
                     <button class="button button_submit">Отправить заявку</button>
                 </form>
             </div>
@@ -350,7 +350,7 @@
         </div>
     </section>
 
-    <section class="scheme">
+    <section id="scheme" class="scheme">
         <div class="container">
             <h2 class="title">Схема работы с нами</h2>
             <div class="scheme__items">
@@ -407,7 +407,7 @@
         </div>
     </section>
 
-    <section class="reviews">
+    <section id="reviews" class="reviews">
         <div class="container">
             <h2 class="title">отзывы наших клиентов</h2>
             <hr>
@@ -456,11 +456,11 @@
                 </div>
                 <div class="question__form">
                     <form class="feed-form_question" action="#">
-                        <input name="name" required placeholder="Ваше имя..." type="text">
-                        <input name="phone" required placeholder="Ваш номер телефона..." type="number">
-                        <input name="email" required placeholder="Ваш e-mail..." type="email">
-                        <textarea name="text" required placeholder="Сообщение..."></textarea>
-    
+                        <div><input name="name" required placeholder="Ваше имя..." type="text"></div>
+                        <div><input name="phone" required placeholder="Ваш номер телефона..."></div>
+                        <div><input name="email" required placeholder="Ваш e-mail..." type="email"></div>
+                        <div><textarea name="text" required minlength="10" placeholder="Сообщение..."></textarea></div>
+
                         <button class="button button_question">Отправить заявку</button>
                     </form>
                 </div>
@@ -468,8 +468,8 @@
         </div>
     </section>
 
-    <section class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.8084428825418!2d37.627142896094604!3d55.74778533307365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8f4b2bb81%3A0x45d8b81f41916c35!2z0KHQsNC00L7QstC90LjRh9C10YHQutCw0Y8g0YPQuy4sIDUsINCc0L7RgdC60LLQsCwg0KDQvtGB0YHQuNGPLCAxMTUwMzU!5e0!3m2!1sru!2sua!4v1584028653214!5m2!1sru!2sua" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <div id="contact" class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.8084428825418!2d37.627142896094604!3d55.74778533307365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8f4b2bb81%3A0x45d8b81f41916c35!2z0KHQsNC00L7QstC90LjRh9C10YHQutCw0Y8g0YPQuy4sIDUsINCc0L7RgdC60LLQsCwg0KDQvtGB0YHQuNGPLCAxMTUwMzU!5e0!3m2!1sru!2sua!4v1584028653214!5m2!1sru!2sua" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <div class="map__info">
             <address class="map__info-addr">
                 <span>г. Москва</span>
@@ -483,7 +483,7 @@
             </div>
             <a class="map__info-web" href="#">info@glopt.ru</a>
         </div>
-    </section>
+    </div>
 
     <footer class="footer">
         <div class="container">
@@ -516,9 +516,16 @@
         </div>
     </footer>
 
+    <a href="#up" class="pageup">
+        <img src="icons/chevron.svg" alt="up">
+    </a>
+    
+
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 
 </body>

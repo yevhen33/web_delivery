@@ -17,6 +17,10 @@
         font-weight: 300;
     }
     &_question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
         input {
             margin-bottom: 8px;
             width: 268px;
@@ -41,5 +45,17 @@
             font-weight: 300;
             margin-bottom: 10px;
         }
+    }
+    .error {
+        border: 1px solid $main-color;
+        display: block;
+        margin-bottom: 0;
+        font-size: 12px;
+        
+    }
+    label.error {
+        border: none;
+        margin-left: 20px;
+        margin-bottom: 0;
     }
 }
